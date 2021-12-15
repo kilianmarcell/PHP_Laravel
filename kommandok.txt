@@ -6,3 +6,9 @@ php artisan migrate
 
 //helyi szerver indítása
 php artisan serve
+
+//ha nincs vendor mappa
+composer install
+
+//kulcs generálása
+php artisan key:generate
